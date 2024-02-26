@@ -1,0 +1,389 @@
+/* Author: Varsha Rajawat
+Date: 25 Feb 2024
+File Name: styles.css  */
+
+/* CSS Reset */
+body,
+header,
+nav,
+main,
+footer,
+img,
+h1,
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Set the background color for the website */
+body {
+    background-color: #FFF8E3; 
+    font-family: "Lato", sans-serif;
+}
+
+/* Style the container element */
+.container {
+    width: 100%; 
+    margin: 0 auto; 
+    text-align: center;
+}
+
+/* Container for logo and nav */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the header element */
+header {
+    background-color: #F5EEE6; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(65, 37, 26, 0.2);
+    text-align: center;
+    color: #41251A; 
+}
+
+/* Style the nav element */
+nav {
+    font-size: 1.5em;
+    padding: 10px 0;
+    margin: 5px 10px;
+}
+
+nav ul {
+    list-style-type: none; 
+}
+
+nav ul li {
+    display: inline-block; 
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: #41251A; 
+    font-size: 1em;
+}
+
+/* Style logo image */
+.logo-img {
+    width: auto;
+    height: 80px;
+    margin: 0 1em;
+}
+
+/* Style banner image */
+.banner-img {
+    margin: auto;
+}
+
+/* Style the main element */
+main {
+    display: block;
+    padding: 20px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    background-color: #FFF8E3;
+}
+
+/* 9. Adjust the font sizes for all headings */
+h1, h2, h3, h4, h5, h6 {
+    color: black;
+}
+
+/* 10. Change the color of at least one heading */
+h1 {
+    color: #41251A; /* Example color */
+}
+
+/* 11. Format the list items */
+ul, ol {
+    /* Add your styles for list items */
+}
+
+/* 12. Reduce the font size for the footer, center it, and include a top margin */
+footer {
+    font-family: "Merriweather", sans-serif;
+    font-size: 0.75em; 
+    text-align: center;
+    margin-top: 0px;
+    background-color: #F3D7CA;
+}
+
+.footer-container {
+    background-color: #F3D7CA;
+    overflow: hidden;
+}
+
+footer p {
+    font-size: 0.75em;
+    text-align: center;
+    padding: 0 1em;
+}
+
+/* Add styles for the specials page */
+
+/* Style the banner section */
+.banner img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 5px 5px rgba(65, 37, 26, 0.2);
+}
+
+/* Style the product of the week section */
+.product-of-the-week {
+    margin-top: 20px;
+}
+
+.product {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.product img {
+    width: 30%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Style the weekly sales section */
+.weekly-sales {
+    margin-top: 20px;
+}
+
+.sales-items {
+    display: flex;
+    margin-top: 20px;
+}
+/* 
+.sales-item {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sales-item img {
+    width: 60%;
+    height: 58%;
+    margin-bottom: 10px;
+} */
+
+/* Style the customer guarantee section */
+.customer-guarantee {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.guarantee p {
+    margin-bottom: 20px;
+}
+
+.guarantee img {
+    width: 50%;
+    height: auto;
+}
+
+/* Style the reasons to buy section */
+.reasons-to-buy {
+    margin-top: 20px;
+}
+
+.reasons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.reason {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* testing */
+.sales-item-card {
+    width: calc(33.33% - 20px); /* Adjust as needed for spacing */
+    margin: 0 10px; /* Adjust spacing between cards */
+    float: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.sales-item {
+    padding: 20px;
+}
+
+.sales-item img {
+    width: auto;
+    height: 300px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.sales-item p {
+    margin-bottom: 10px;
+}
+
+.sales-item strong {
+    font-weight: bold;
+}
+
+/* Style the product of the week section */
+.product-of-the-week {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.product {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.product img {
+    width: 300px; /* Set a fixed width */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px;
+}
+
+.product-info {
+    text-align: center;
+}
+
+.product-info p {
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 1.2em;
+    color: #FF5733; /* Adjust color as desired */
+}
+
+.price strong {
+    font-weight: bold;
+}
+
+.price del {
+    color: #999; /* Adjust color as desired */
+}
+
+.our-guarantee {
+    background-color: #F3D7CA;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+.our-guarantee h2 {
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+.our-guarantee p {
+    margin-bottom: 20px;
+}
+
+.our-guarantee ul {
+    list-style: none;
+    padding: 0;
+}
+
+.our-guarantee li {
+    margin-bottom: 10px;
+}
+
+.our-guarantee li strong {
+    color: #E6A4B4;
+}
+
+/* Style the reasons to buy section */
+.reasons-to-buy {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.reasons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.reason {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 300px; /* Set a fixed width for better alignment */
+}
+
+.reason img {
+    width: 40%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.reason h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.reason p {
+    margin-bottom: 10px;
+}
+
+/* Style the our guarantee section */
+.our-guarantee {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.guarantee-intro {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.guarantee-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.guarantee-item {
+    width: 300px;
+    margin: 0 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.guarantee-item:hover {
+    transform: translateY(-5px);
+}
+
+.guarantee-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.guarantee-item p {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 0;
+}
