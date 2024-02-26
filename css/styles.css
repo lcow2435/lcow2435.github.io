@@ -94,22 +94,18 @@ main {
     background-color: #FFF8E3;
 }
 
-/* 9. Adjust the font sizes for all headings */
+/* Adjust the font color for all headings */
 h1, h2, h3, h4, h5, h6 {
     color: black;
 }
 
-/* 10. Change the color of at least one heading */
+/* Change the color of at least one heading */
 h1 {
     color: #41251A; /* Example color */
 }
 
-/* 11. Format the list items */
-ul, ol {
-    /* Add your styles for list items */
-}
 
-/* 12. Reduce the font size for the footer, center it, and include a top margin */
+/* Style footer */
 footer {
     font-family: "Merriweather", sans-serif;
     font-size: 0.75em; 
@@ -138,22 +134,6 @@ footer p {
     box-shadow: 0 5px 5px rgba(65, 37, 26, 0.2);
 }
 
-/* Style the product of the week section */
-.product-of-the-week {
-    margin-top: 20px;
-}
-
-.product {
-    margin-top: 20px;
-    text-align: center;
-}
-
-.product img {
-    width: 30%;
-    height: auto;
-    margin-bottom: 10px;
-}
-
 /* Style the weekly sales section */
 .weekly-sales {
     margin-top: 20px;
@@ -162,52 +142,9 @@ footer p {
 .sales-items {
     display: flex;
     margin-top: 20px;
-}
-/* 
-.sales-item {
-    text-align: center;
-    margin-bottom: 20px;
+    padding: 20px;
 }
 
-.sales-item img {
-    width: 60%;
-    height: 58%;
-    margin-bottom: 10px;
-} */
-
-/* Style the customer guarantee section */
-.customer-guarantee {
-    margin-top: 20px;
-    text-align: center;
-}
-
-.guarantee p {
-    margin-bottom: 20px;
-}
-
-.guarantee img {
-    width: 50%;
-    height: auto;
-}
-
-/* Style the reasons to buy section */
-.reasons-to-buy {
-    margin-top: 20px;
-}
-
-.reasons {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
-
-.reason {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-/* testing */
 .sales-item-card {
     width: calc(33.33% - 20px); /* Adjust as needed for spacing */
     margin: 0 10px; /* Adjust spacing between cards */
@@ -215,10 +152,6 @@ footer p {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
-}
-
-.sales-item {
-    padding: 20px;
 }
 
 .sales-item img {
@@ -251,8 +184,8 @@ footer p {
 }
 
 .product img {
-    width: 300px; /* Set a fixed width */
-    height: auto; /* Maintain aspect ratio */
+    width: 300px;
+    height: auto;
     margin-bottom: 10px;
 }
 
@@ -266,7 +199,7 @@ footer p {
 
 .price {
     font-size: 1.2em;
-    color: #FF5733; /* Adjust color as desired */
+    color: #FF5733; 
 }
 
 .price strong {
@@ -274,40 +207,7 @@ footer p {
 }
 
 .price del {
-    color: #999; /* Adjust color as desired */
-}
-
-.our-guarantee {
-    background-color: #F3D7CA;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 100%;
-}
-
-.our-guarantee h2 {
-    color: #333;
-    margin-bottom: 10px;
-    border-bottom: 2px solid #333;
-    padding-bottom: 10px;
-}
-
-.our-guarantee p {
-    margin-bottom: 20px;
-}
-
-.our-guarantee ul {
-    list-style: none;
-    padding: 0;
-}
-
-.our-guarantee li {
-    margin-bottom: 10px;
-}
-
-.our-guarantee li strong {
-    color: #E6A4B4;
+    color: #999; 
 }
 
 /* Style the reasons to buy section */
