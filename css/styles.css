@@ -96,7 +96,7 @@ nav ul li:hover {
 
 /* Style the main element */
 main {
-    padding: 5px;
+    padding: 0px;
     display: block;
     margin-bottom: 0px;
     border-radius: 10px;
@@ -110,7 +110,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: black;
+    color: #41251A;
 }
 
 /* Change the color of at least one heading */
