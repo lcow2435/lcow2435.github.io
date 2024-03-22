@@ -1,6 +1,22 @@
+.team-banner img {
+    max-width: 100%;
+    margin: auto;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .team-member img {
     border-radius: 50%;
     width: 200px;
-    height: 200px; 
+    height: 200px;
     object-fit: cover;
-  }
+}
+
+.team-member figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+}
