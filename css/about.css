@@ -1,0 +1,31 @@
+/* Styles for About page */
+.about-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.story-section,
+.reasons-section,
+.guarantee-section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 768px) {
+    /* Styles for Tablet */
+    .about-section {
+        padding: 40px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    /* Styles for Desktop */
+    .about-section {
+        padding: 60px;
+    }
+}

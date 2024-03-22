@@ -27,13 +27,9 @@ body {
     width: 100%; 
     margin: 0 auto; 
     text-align: center;
-}
-
-/* Container for logo and nav */
-.header-container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+  flex-direction: column;
+  min-height: calc(55vh);
 }
 
 /* Style the header element */
@@ -47,48 +43,61 @@ header {
     color: #41251A; 
 }
 
-/* Style the nav element */
 nav {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    top: 0;
     font-size: 1.5em;
-    padding: 10px 0;
-    margin: 5px 10px;
-}
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    column-gap: 15px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #41251A;
+    padding: 10px;
+  }
+  
+  nav ul li a:hover {
+    color: #EFBC9B;
+  }
 
-nav ul {
-    list-style-type: none; 
-}
+  nav ul li:hover{
+    transform: scale(1.1);
+  }
 
-nav ul li {
-    display: inline-block; 
-    margin-right: 20px;
-}
-
-nav ul li:last-child {
-    margin-right: 0;
-}
-
-nav ul li a {
-    text-decoration: none; 
-    color: #41251A; 
-    font-size: 1em;
-}
 
 /* Style logo image */
 .logo-img {
     width: auto;
     height: 80px;
     margin: 0 1em;
+    display: block;
 }
 
 /* Style banner image */
 .banner-img {
+    max-width: 100%;
+    height: auto;
     margin: auto;
 }
 
 /* Style the main element */
 main {
+    padding: 5px;
     display: block;
-    padding: 20px;
     margin-bottom: 0px;
     border-radius: 10px;
     background-color: #FFF8E3;
@@ -112,6 +121,8 @@ footer {
     text-align: center;
     margin-top: 0px;
     background-color: #F3D7CA;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer-container {
@@ -286,4 +297,37 @@ footer p {
     font-size: 0.9em;
     color: #666;
     margin-bottom: 0;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 0px;
+        padding: 0px;
+        position: static;
+        border: none;
+      }
+    
+      nav ul {
+        flex-direction: column;
+        /* row-gap: 10px; */
+        width: 100%;
+        margin-bottom: 0px;
+      }
+    
+      nav ul li {
+        padding: 5px 0;
+        /* border-top: 1px solid #333; */
+        border-bottom: 1px solid #333;
+      }
+
+      nav ul li a {
+        padding: 5px 0;
+        width: 100%;
+        display: block;
+      }
+    
+    
 }
