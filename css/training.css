@@ -1,6 +1,7 @@
 /* training.css */
 
 table {
+    border: 1px solid #ddd;
     border-collapse: collapse;
     width: 100%;
 }
@@ -11,9 +12,12 @@ caption {
     margin-bottom: 10px;
 }
 
-th, td {
+th,
+td {
     padding: 8px;
     text-align: left;
+    border: 1px solid #ddd;
+    padding: 8px;
 }
 
 th {
@@ -26,6 +30,21 @@ tr:nth-child(even) {
 
 tr:hover {
     background-color: #ddd;
+}
+
+.product-with-image {
+    display: inline;
+    border: none;
+}
+
+/* Style for product images */
+table img {
+    width: 90px;
+    /* Adjust the width as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    /* Center the image horizontally */
 }
 
 h2 {
