@@ -86,7 +86,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-p {
+p.testimonials {
     color: #666;
     font-size: 1.1em;
     line-height: 1.6;
