@@ -1,31 +1,97 @@
-/* Styles for About page */
+/* Styles for About section */
 .about-section {
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}
-
-.story-section,
-.reasons-section,
-.guarantee-section {
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 40px;
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Media Queries */
-@media only screen and (min-width: 768px) {
-    /* Styles for Tablet */
-    .about-section {
-        padding: 40px;
-    }
+.about-section h1 {
+    font-size: 2.5rem;
+    color: #41251A;
+    margin-bottom: 20px;
 }
 
-@media only screen and (min-width: 1024px) {
-    /* Styles for Desktop */
-    .about-section {
-        padding: 60px;
-    }
+.about-section p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Styles for Story section */
+.story-section {
+    padding: 40px;
+    background-color: #F9F9F9;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.story-section h2 {
+    font-size: 2rem;
+    color: #41251A;
+    margin-bottom: 20px;
+}
+
+.story-section p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Styles for Reasons section */
+.reasons-section {
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.reasons-section h2 {
+    font-size: 2rem;
+    color: #41251A;
+    margin-bottom: 20px;
+}
+
+.reasons-section ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.reasons-section li {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Styles for Guarantee section */
+.guarantee-section {
+    padding: 40px;
+    background-color: #F9F9F9;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.guarantee-section h2 {
+    font-size: 2rem;
+    color: #41251A;
+    margin-bottom: 20px;
+}
+
+.guarantee-section p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.guarantee-section strong {
+    font-weight: bold;
+    color: #A9B388;
+}
+
+/* Add hover effect on footer links */
+.footer-container a:hover {
+    color: #5F6F52;
 }
