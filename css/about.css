@@ -1,7 +1,7 @@
 /* Styles for About section */
 .about-section {
     padding: 40px;
-    background-color: #fff;
+    background-color: #FFF8E3;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
@@ -41,7 +41,7 @@
 /* Styles for Reasons section */
 .reasons-section {
     padding: 40px;
-    background-color: #fff;
+    background-color: #FFF8E3;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
