@@ -1,3 +1,5 @@
+/* Add styles for the team page */
+
 .team-banner img {
     max-width: 100%;
     margin: auto;
@@ -15,6 +17,7 @@
     width: 220px;
     height: 220px;
     object-fit: cover;
+    transition: transform 0.3s ease-in-out;
 }
 
 .team-member figcaption {
@@ -34,24 +37,7 @@
     color: #666;
 }
 
-h1 {
-    text-align: center;
-    margin: 20px;
-}
-
-.our-story p, aside p {
-    font-size: 16px;
-    line-height: 1.5;
-    color: #666;
-    text-align: justify;
-    margin: 0 auto;
-    max-width: 900px;
-    padding: 0 20px;
-}
-
-/* Styles for the aside section */
-aside {
-    background-color: #f5f5f5;
-    padding: 20px;
-    margin-top: 20px;
+/* Hover effect on team member images */
+.team-member img:hover {
+    transform: scale(1.1);
 }
