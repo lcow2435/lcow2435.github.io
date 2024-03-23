@@ -41,3 +41,10 @@
 .team-member img:hover {
     transform: scale(1.1);
 }
+
+@media only screen and (min-width: 768px) {
+
+    section.team-banner{
+        display: none;
+    }
+}

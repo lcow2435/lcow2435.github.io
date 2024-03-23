@@ -164,9 +164,7 @@ footer p {
 
 .sales-item-card {
     width: calc(33.33% - 20px);
-    /* Adjust as needed for spacing */
     margin: 0 10px;
-    /* Adjust spacing between cards */
     float: left;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -246,7 +244,6 @@ footer p {
     text-align: center;
     margin-bottom: 20px;
     width: 300px;
-    /* Set a fixed width for better alignment */
 }
 
 .reason img {
@@ -321,14 +318,12 @@ footer p {
 
     nav ul {
         flex-direction: column;
-        /* row-gap: 10px; */
         width: 100%;
         margin-bottom: 0px;
     }
 
     nav ul li {
         padding: 5px 0;
-        /* border-top: 1px solid #333; */
         border-bottom: 1px solid #333;
     }
 
