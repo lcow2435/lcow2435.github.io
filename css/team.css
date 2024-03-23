@@ -49,6 +49,13 @@
     }
 }
 
+@media only screen and (max-width: 768px) {
+
+    .our-team{
+        display: none;
+    }
+}
+
 .our-story {
     background-image: url('path/to/hero-image.jpg');
     background-size: cover;
