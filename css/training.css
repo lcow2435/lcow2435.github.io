@@ -21,15 +21,19 @@ td {
 }
 
 th {
-    background-color: #A9B388;
+    background-color: #B99470;
+    padding: 10px;
+    text-align: center;
+    color: #41251A;
+    font-size: 1.3em;
 }
 
 tr:nth-child(even) {
-    background-color: #A9B388;
+    background-color: #dde1cf;
 }
 
 tr:hover {
-    background-color: #FFEBD8;
+    background-color: #e3d4c6;
 }
 
 .product-with-image {
