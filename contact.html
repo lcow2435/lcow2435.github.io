@@ -8,6 +8,7 @@ Student number: c0932381 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Blade Spectrum</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -36,8 +37,58 @@ Student number: c0932381 -->
                 </ul>
             </nav>
         </header>
-        <main>
-            <img class="coming-soon" src="images/comingsoon.png" alt="home page banner">
+        <main class="form-container">
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <ol>
+                        <li class="form-list-item">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </li>
+                        <li class="form-list-item">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </li>
+                        <li class="form-list-item">
+                            <label for="phone">Phone:</label>
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890">
+                        </li>
+                        <li class="form-list-item">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </li>
+                        <li class="form-list-item">
+                            <label for="category">Category:</label>
+                            <select id="category" name="category">
+                                <option value="general">General Inquiry</option>
+                                <option value="support">Support</option>
+                                <option value="feedback">Feedback</option>
+                            </select>
+                        </li>
+                        <li class="form-list-item">
+                            <label>Preferred Contact Method:</label>
+                            <div class="radio-group">
+                                <input type="radio" id="contact-email" name="contact-method" value="email">
+                                <label class="inner-label" for="contact-email">Email</label>
+                                <input type="radio" id="contact-phone" name="contact-method" value="phone">
+                                <label class="inner-label" for="contact-phone">Phone</label>
+                                <input type="radio" id="contact-none" name="contact-method" value="none">
+                                <label class="inner-label"for="contact-none">No Preference</label>
+                            </div>
+                        </li>
+                        <li class="form-list-item">
+                            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                            <label class="inner-label" for="subscribe">Subscribe to newsletter</label>
+                        </li>
+                    </ol>
+                    <div class="buttons">
+                        <button type="submit">Submit Request</button>
+                        <button type="reset">Reset Form</button>
+                    </div>
+                </fieldset>
+                
+            </form>
         </main>
         <footer>
             <div class="footer-container">
