@@ -172,7 +172,7 @@ footer p {
 }
 
 .sales-item img {
-    width: auto;
+    max-width: 100%;
     height: 300px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
